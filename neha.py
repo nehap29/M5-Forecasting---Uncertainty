@@ -4,16 +4,16 @@ import numpy as np                       # dense matrices
 from scipy.sparse import csr_matrix      # sparse matrices
 
 
-train = pd.read_csv("m5-forecasting-uncertainty/sales_train_validation.csv")
+train = pd.read_csv("../input/m5-forecasting-uncertainty/sales_train_validation.csv")
 print(train.head())
 
 train.shape
 
 
-calendar = pd.read_csv("m5-forecasting-uncertainty/calendar.csv")
+calendar = pd.read_csv("../input/m5-forecasting-uncertainty/calendar.csv")
 calendar.head()
 
-sell_prices = pd.read_csv("m5-forecasting-uncertainty/sell_prices.csv")
+sell_prices = pd.read_csv("../input/m5-forecasting-uncertainty/sell_prices.csv")
 sell_prices.head()
 
 
