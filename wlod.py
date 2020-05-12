@@ -6,7 +6,6 @@ train = np.array(pd.read_csv("input/m5-forecasting-uncertainty/sales_train_valid
 sell_prices = pd.read_csv("input/m5-forecasting-uncertainty/sell_prices.csv")
 print(train[2])
 
-for i in range(1,int(np.shape(train)/2)):
-    plt.plot(np.arange(np.shape(train)[1] - 6), np.cumsum(train[i][6:]))
+plt.plot(np.arange(np.shape(train)[1] - 6), np.cumsum(np.sum(train,axis=0)[6:]))
 
 plt.show()
