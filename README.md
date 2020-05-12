@@ -6,3 +6,7 @@ by wlod and neha
 * numpy
 * matplotlib
 * pandas
+
+## Setup
+
+* Extract the contents of the .zip into the input folder 
